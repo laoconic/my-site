@@ -38,7 +38,7 @@ ul {
 li {
   display: inline;
   margin-left: 20px;
-  font-size: 1rem 100vw;
+  font-size: calc(1rem + 0.2vw);
 }
 
 a {
