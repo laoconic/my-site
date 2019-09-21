@@ -38,10 +38,7 @@ ul {
 li {
   display: inline;
   margin-left: 20px;
-}
-
-.home {
-  margin-left: 20px;
+  font-size: 100%;
 }
 
 a {
