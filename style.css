@@ -31,7 +31,7 @@ a:hover {
 h1 {
   font-size: 500%;
   margin-top: 25%;
-  line-height: 95%;
+  line-height: 100%;
   width: 70%;
 }
 
@@ -54,9 +54,15 @@ form {
 /* цвет фокуса на сылках и полях тоже нужен  */
 
 textarea,
-label {
+label,
+input {
+  font-family: "Arial", sans-serif;
   font-size: 16px;
-  padding: 5px;
+}
+
+input {
+  /* vertical-align: middle; */
+  padding: none;
 }
 
 input[type="text"] {
@@ -68,7 +74,7 @@ input[type="email"] {
 }
 
 label textarea {
-  vertical-align: text-top;
+    vertical-align: text-top;
 }
 
 input[type="submit"] {
