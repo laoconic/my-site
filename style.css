@@ -77,7 +77,7 @@ label textarea {
     vertical-align: text-top;
 }
 
-input[type="submit"] {
+button {
   font-size: 18px;
   width: 200px;
   height: 62px;
@@ -89,6 +89,6 @@ input[type="submit"] {
   cursor: pointer;
 }
 
-input[type="submit"]:hover {
+button:hover {
   background-color: #3348FF;
 }

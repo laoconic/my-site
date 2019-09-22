@@ -8,68 +8,95 @@
     <meta name="description" content="Сайт практикующего психолога Натальи Репиной">
   </head>
   <body>
-    <header>
-      <nav class="site-navigation">
-      <ul>
-        <!-- надо добавить свг логотип -->
-        <li><a href="https://laoconic.github.io/my-site/">Главная</a></li>
-        <li><a href="article.html">Статьи</a></li>
-        <li><a href="#">Услуги</a></li>
-        <li><a href="#">Обо мне</a></li>
-        <li><a href="#">Контакты</a></li>
-      </ul>
-    </nav>
-      <h1>Психологическая помощь Натальи Репиной</h1>
-      <h2>+7 700 224-64-14</h2>
+    <header class="main-header">
+      <nav class="main-navigation">
+        <a class="main-header-logo">
+          <img src="#" alt="Логотип Натальи Репиной">
+        </a>
+        <ul class="site-navigation">
+          <li><a href="article.html">Статьи</a></li>
+          <li><a href="#">Услуги</a></li>
+          <li><a href="#">Обо мне</a></li>
+          <li><a href="#">Контакты</a></li>
+        </ul>
+      </nav>
     </header>
-    <main>
-      <br>
-      <br>
-      <section>
-        <!-- правильно ли сектион? мб другой тег -->
-        <div class="background"></div>
-        <p>Для кого предназначенны консультации?</p>
-        <br>
-        <p>Список проблем</p>
-        <br>
-        <p>Сколько нужно сеансов для решения проблемы? Какая длительность?</p>
-        <br>
-        <p>Как проходит сеанс?</p>
-        <br>
-        <p>Метод</p>
-        <br>
-        <p>Чему вы научитесь?</p>
-        <br>
-        <p>Что вы получите от консультации?</p>
-        <br>
-        <p>Цена</p>
-        <br>
-        <p>Длительность сеанса</p>
+    <main class="container">
+      <h1>Психологические консультации Натальи Репиной</h1>
+      <p class="phone"><strong>+7 700 224-64-14</strong></p>
+      <section class="services">
+        <h2>Услуги</h2>
+        <p>Для кого предназначенны консультации? Список проблем.
+          Сколько нужно сеансов для решения проблемы? Какая длительность?
+          Как проходит сеанс? Метод.
+          Чему вы научитесь? Что вы получите от консультации?
+          Цена. Длительность сеанса</p>
       </section>
-      <!-- Карточка услуги, карточка статьи, соц сети -->
-      <br>
-      <br>
+      <section class="articles">
+        <h2>Статьи</h2>
+        <ul class="articles-list">
+          <li class="articl-item">
+            <a href="#">
+              <article class="card">
+                <img src="#" about="Статья 1">
+                <h3>Статья 1</h3>
+                <time datetime="2019-09-22">Вчера</time>
+              </article>
+            </a>
+          </li>
+          <li class="articl-item">
+            <a href="#">
+              <article class="card">
+                <img src="#" about="Статья 2">
+                <h3>Статья 1</h3>
+                <time datetime="2019-09-22">Вчера</time>
+              </article>
+            </a>
+          </li>
+          <li class="articl-item">
+            <a href="#">
+              <article class="card">
+                <img src="#" about="Статья 3">
+                <h3>Статья 1</h3>
+                <time datetime="2019-09-22">Вчера</time>
+              </article>
+            </a>
+          </li>
+        </ul>
+        <a href="article.html">Все статьи</a>
+      </section>
+      <section class="about">
+        <h2>Обо мне</h2>
+        <img src="#" alt="Мое фото">
+        <p>Обо мне обо мне обо мне обо мне обо мне обо мне обо мне обо мне</p>
+      </section>
       <form action="laoconic@gmail.com" method="post">
-        <h3>Запись на приём</h3>
-        <label for="lll">
-          Имя <input type="text" name="username" id="lll">
-        </label>
-        <br>
-        <br>
-        <label for="qqq">
+        <h2>Запись на приём</h2>
+        <p><label for="lll">
+          Имя<input type="text" name="username" id="lll">
+        </label></p>
+        <p><label for="qqq">
           Почта <input type="email" name="email" id="qqq">
-        </label>
-        <br>
-        <br>
-        <label>
+        </label></p>
+        <p><label>
           Описание проблемы <textarea name="comment" id="comment-field" rows="5" cols="50"></textarea>
-        </label>
-        <br>
-        <br>
-        <input type="submit" value="Изменить жизнь">
+        </label></p>
+        <p><button> Изменить жизнь</button></p>
       </form>
     </main>
-    <br>
-    <br>
-    <footer>© 2019</footer>
+    <footer class="main-footer">
+      <p class="footer-contacts">
+        Улица строителей <br>
+        7777777777
+      </p>
+      <div class="foote-social">
+        <ul class="social-list">
+          <li><a class="social-button" href="">Инстаграм</a></li>
+          <li><a class="social-button" href="">Вконтакте</a></li>
+          <li><a class="social-button" href="">Фэйсбук</a></li>
+        </ul>
+      </div>
+      <p class="footer-copyright">Наталья Репина 2019 ©</p>
+    </footer>
   </body>
+</html>
