@@ -1,24 +1,124 @@
 <!DOCTYPE html>
 <html lang="ru">
   <head>
-    <link rel="stylesheet" href="style.css">
+    <!-- <link rel="stylesheet" href="style.css"> -->
     <meta charset="utf-8">
     <title>Статьи</title>
     <meta name="keywords" content="">
     <meta name="description" content="">
   </head>
   <body>
-    <header>
-      <nav class="site-navigation">
-        <ul>
-          <!-- надо добавить свг логотип -->
-          <li class="home"><a href="https://laoconic.github.io/my-site/">Главная</a></li>
-          <li><a href="#">Статьи</a></li>
+    <header class="main-header">
+      <nav class="main-navigation">
+        <a class="main-header-logo">
+          <img src="#" alt="Логотип Натальи Репиной">
+        </a>
+        <ul class="site-navigation">
+          <li><a href="article.html">Статьи</a></li>
           <li><a href="#">Услуги</a></li>
           <li><a href="#">Обо мне</a></li>
           <li><a href="#">Контакты</a></li>
         </ul>
       </nav>
     </header>
+    <main class="container">
+      <h1>Статьи</h1>
+      <section class="articles articled-2019">
+        <p>2019</p>
+        <ul class="articles-list">
+          <li class="articl-item">
+            <a href="#">
+              <article class="card">
+                <img src="#" alt="Статья 1">
+                <h3>Статья 1</h3>
+                <time datetime="2019-09-22">Вчера</time>
+              </article>
+            </a>
+          </li>
+          <li class="articl-item">
+            <a href="#">
+              <article class="card">
+                <img src="#" alt="Статья 2">
+                <h3>Статья 2</h3>
+                <time datetime="2019-09-22">Вчера</time>
+              </article>
+            </a>
+          </li>
+          <li class="articl-item">
+            <a href="#">
+              <article class="card">
+                <img src="#" alt="Статья 3">
+                <h3>Статья 3</h3>
+                <time datetime="2019-09-22">Вчера</time>
+              </article>
+            </a>
+          </li>
+        </ul>
+      </section>
+      <section class="articles articled-2018">
+        <p>2018</p>
+        <ul class="articles-list">
+          <li class="articl-item">
+            <a href="#">
+              <article class="card">
+                <img src="#" alt="Статья 1">
+                <h3>Статья 1</h3>
+                <time datetime="2019-09-22">Вчера</time>
+              </article>
+            </a>
+          </li>
+          <li class="articl-item">
+            <a href="#">
+              <article class="card">
+                <img src="#" alt="Статья 2">
+                <h3>Статья 2</h3>
+                <time datetime="2019-09-22">Вчера</time>
+              </article>
+            </a>
+          </li>
+          <li class="articl-item">
+            <a href="#">
+              <article class="card">
+                <img src="#" alt="Статья 3">
+                <h3>Статья 3</h3>
+                <time datetime="2019-09-22">Вчера</time>
+              </article>
+            </a>
+          </li>
+        </ul>
+      </section>
+      <aside class="bar">
+        <input type="search" name="" value="">
+        <!-- кнопка или ссылка поиска -->
+        <nav>
+          <h2>Рубрики</h2>
+          <ul>
+            <li>Отношения</li>
+            <li>Семья</li>
+            <li>Дети</li>
+            <li>Зависимость</li>
+            <li>Общение</li>
+            <li>Депрессия</li>
+            <li>Эмоции</li>
+          </ul>
+        </nav>
+      </aside>
+    </main>
+    <footer class="main-footer">
+      <p class="footer-contacts">
+        Улица строителей <br>
+        7777777777
+      </p>
+      <div class="foote-social">
+        <ul class="social-list">
+          <li><a class="social-button" href=""><span class="icon icon-instagram"></span>Инстаграм</a></li>
+          <li><a class="social-button" href=""><span class="icon icon-vk"></span>Вконтакте</a></li>
+          <li><a class="social-button" href=""><span class="icon icon-facebool"></span>Фэйсбук</a></li>
+        </ul>
+      </div>
+      <p class="footer-copyright">Наталья Репина 2019 ©</p>
+      <!-- тут спрайт иконок -->
+      <div class="full-sprite"></div>
+    </footer>
   </body>
 </html>

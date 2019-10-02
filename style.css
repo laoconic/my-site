@@ -1,7 +1,5 @@
 body {
-  background-image: url(files/1.gif),
-                    url(files/2.gif);
-  background-position: top left, center;
+  background-image: url(files/1.gif);
   background-repeat: no-repeat;
   background-size: 75%;
   background-color: #FCFCFF;
@@ -9,18 +7,28 @@ body {
   margin-left: 2%;
 }
 
-ul {
-  list-style-type: none;
-  margin-left: 65%;
+.main-header-logo {
+  /* position: fixed; */
 }
 
-li {
+.site-navigation {
+  display: inline-block;
+  position: fixed;
+  list-style: none;
+  margin: 0px;
+  padding: 0px;
+  right: 50px;
+}
+
+.site-navigation li {
   display: inline;
-  margin-left: 20px;
+  white-space: nowrap;
 }
 
 a {
   color: #001AFF;
+  padding: 10px;
+  margin-left: 20px;
   text-decoration: none;
 }
 
@@ -30,28 +38,62 @@ a:hover {
 
 h1 {
   font-size: 500%;
-  margin-top: 25%;
+  margin: 25% 0% 2% 0%;
   line-height: 100%;
-  width: 70%;
+  width: 90%;
+    /* font-family: /*"Press Start 2P", cursive,*/ "Arial", sans-serif; */
 }
 
 h2 {
   font-size: 200%;
-  margin-top: -2%;
 }
 
-h3 {
-  font-size: 200%;
+legend h3 {
+  font-size: 100%;
+}
+
+.phone {
+  font-size: 50px;
+  margin: 2% 0% 5% 0%;
+}
+
+section {
+  height: 700px;
+}
+
+section.services {
+  background: url(files/2.gif) no-repeat center;
+  background-size: 75%;
+}
+
+.services p {
+  width: 50%;
+}
+
+.articl-item {
+  display: inline-block;
+}
+
+.articles-list {
+  /* background-color: red; */
+  width: 60%;
+  margin: auto;
+}
+
+.card {
+  background-color: #EEEEEF;
+  padding: 10px;
 }
 
 form {
   background-color: #EEEEEF;
   border-radius: 10px;
-  width: 50%;
+  width: 40%;
   padding: 1px 20px 40px 20px;
 }
 
 /* цвет фокуса на сылках и полях тоже нужен  */
+
 
 textarea,
 label,
@@ -60,24 +102,31 @@ input {
   font-size: 16px;
 }
 
-input {
-  /* vertical-align: middle; */
-  padding: none;
+input, textarea {
+  float: right;
+  text-align: left;
 }
 
+label {
+  /* float: left; */
+}
+
+
 input[type="text"] {
-  margin-left: 121px;
+  /* margin-left: 121px; */
 }
 
 input[type="email"] {
-  margin-left: 109px;
+  /* clear: left; */
 }
+
 
 label textarea {
     vertical-align: text-top;
 }
 
 button {
+  clear: both;
   font-size: 18px;
   width: 200px;
   height: 62px;
