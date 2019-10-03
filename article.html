@@ -14,7 +14,7 @@
           <img src="#" alt="Логотип Натальи Репиной">
         </a>
         <ul class="site-navigation">
-          <li><a href="article.html">Статьи</a></li>
+          <li class="site-navigation-current"><a href="article.html">Статьи</a></li>
           <li><a href="#">Услуги</a></li>
           <li><a href="#">Обо мне</a></li>
           <li><a href="#">Контакты</a></li>
@@ -22,84 +22,89 @@
       </nav>
     </header>
     <main class="container">
-      <h1>Статьи</h1>
-      <section class="articles articled-2019">
-        <p>2019</p>
-        <ul class="articles-list">
-          <li class="articl-item">
-            <a href="#">
-              <article class="card">
-                <img src="#" alt="Статья 1">
-                <h3>Статья 1</h3>
-                <time datetime="2019-09-22">Вчера</time>
-              </article>
-            </a>
-          </li>
-          <li class="articl-item">
-            <a href="#">
-              <article class="card">
-                <img src="#" alt="Статья 2">
-                <h3>Статья 2</h3>
-                <time datetime="2019-09-22">Вчера</time>
-              </article>
-            </a>
-          </li>
-          <li class="articl-item">
-            <a href="#">
-              <article class="card">
-                <img src="#" alt="Статья 3">
-                <h3>Статья 3</h3>
-                <time datetime="2019-09-22">Вчера</time>
-              </article>
-            </a>
-          </li>
-        </ul>
-      </section>
-      <section class="articles articled-2018">
-        <p>2018</p>
-        <ul class="articles-list">
-          <li class="articl-item">
-            <a href="#">
-              <article class="card">
-                <img src="#" alt="Статья 1">
-                <h3>Статья 1</h3>
-                <time datetime="2019-09-22">Вчера</time>
-              </article>
-            </a>
-          </li>
-          <li class="articl-item">
-            <a href="#">
-              <article class="card">
-                <img src="#" alt="Статья 2">
-                <h3>Статья 2</h3>
-                <time datetime="2019-09-22">Вчера</time>
-              </article>
-            </a>
-          </li>
-          <li class="articl-item">
-            <a href="#">
-              <article class="card">
-                <img src="#" alt="Статья 3">
-                <h3>Статья 3</h3>
-                <time datetime="2019-09-22">Вчера</time>
-              </article>
-            </a>
-          </li>
-        </ul>
+      <h1 class="page-title">Статьи</h1>
+      <section class="articles">
+        <h2 class="visually-hidden">Список статей</h2>
+        <section class="articles articled-2019">
+          <p>2019</p>
+          <ul class="articles-list">
+            <li class="articl-item">
+              <h3>
+                <a class="articl-title" href="#">Статья 1</a>
+              </h3>
+              <p class="articl-image">
+                <a href="#"><img src="" alt="Статья 1"></a>
+              </p>
+              <time class="articl-date" datetime="2019-09-22">Вчера</time>
+            </li>
+            <li class="articl-item">
+              <h3>
+                <a class="articl-title" href="#">Статья 2</a>
+              </h3>
+              <p class="articl-image">
+                <a href="#"><img src="" alt="Статья 2"></a>
+              </p>
+              <time class="articl-date" datetime="2019-09-22">Вчера</time>
+            </li>
+            <li class="articl-item">
+              <h3>
+                <a class="articl-title" href="#">Статья 3</a>
+              </h3>
+              <p class="articl-image">
+                <a href="#"><img src="" alt="Статья 3"></a>
+              </p>
+              <time class="articl-date" datetime="2019-09-22">Вчера</time>
+            </li>
+          </ul>
+          <p>2018</p>
+          <ul class="articles-list">
+            <li class="articl-item">
+              <h3>
+                <a class="articl-title" href="#">Статья 4</a>
+              </h3>
+              <p class="articl-image">
+                <a href="#"><img src="" alt="Статья 4"></a>
+              </p>
+              <time class="articl-date" datetime="2019-09-22">Вчера</time>
+            </li>
+            <li class="articl-item">
+              <h3>
+                <a class="articl-title" href="#">Статья 5</a>
+              </h3>
+              <p class="articl-image">
+                <a href="#"><img src="" alt="Статья 5"></a>
+              </p>
+              <time class="articl-date" datetime="2019-09-22">Вчера</time>
+            </li>
+            <li class="articl-item">
+              <h3>
+                <a class="articl-title" href="#">Статья 6</a>
+              </h3>
+              <p class="articl-image">
+                <a href="#"><img src="" alt="Статья 6"></a>
+              </p>
+              <time class="articl-date" datetime="2019-09-22">Вчера</time>
+            </li>
+          </ul>
+          <p class="pagination"><a href="#">Болье статей</a></p>
       </section>
       <aside class="bar">
-        <input type="search" name="" value="">
-        <!-- кнопка или ссылка поиска -->
+        <h2>Фильтр статей</h2>
+        <form class="" action="index.html" method="post">
+          <p>
+            <input type="search" name="" value="">
+            <button type="submit">Поиск</button>
+          </p>
+        </form>
         <nav>
-          <h2>Рубрики</h2>
           <ul>
-            <li>Отношения</li>
-            <li>Семья</li>
-            <li>Дети</li>
-            <li>Зависимость</li>
-            <li>Общение</li>
-            <li>Депрессия</li>
-            <li>Эмоции</li>
+            <li><a href="#">Отношения</a></li>
+            <li><a href="#">Семья</a></li>
+            <li><a href="#">Дети</a></li>
+            <li><a href="#">Зависимость</a></li>
+            <li><a href="#">Общение</a></li>
+            <li><a href="#">Депрессия</a></li>
+            <li><a href="#">Эмоции</a></li>
           </ul>
         </nav>
       </aside>
