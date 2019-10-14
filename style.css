@@ -10,9 +10,11 @@ body {
 .main-navigation {
   position: fixed;
   top: 10px;
+  width: 100%;
 }
 
 .main-header-logo {
+
 }
 
 ul {
@@ -22,7 +24,7 @@ ul {
 
 .site-navigation {
   display: inline-block;
-  margin-left: 900px;
+  margin-left: 65%;
   list-style: none;
 }
 
